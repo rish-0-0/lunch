@@ -1,7 +1,11 @@
 .logo {
     position: relative;
+    animation: fadeIn 8s;
 }
 .logo #left-arrow {
+    position: absolute;
+    top:0;
+    left: 0;
     z-index: 1;
 }
 .logo #right-arrow {
@@ -9,4 +13,9 @@
     top:0;
     left: 0;
     z-index: -1;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0.2;}
+    to { opacity: 1;}
 }

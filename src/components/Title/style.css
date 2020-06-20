@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'HeadingYatra';
+  src: url('../../fonts/YatraOne-Regular.ttf') format('truetype');
+}
+
+.title .title-heading {
+  font-family: 'HeadingYatra';
+  font-size: 15vh;
+  padding: 1vh;
+  text-align: center;
+}
