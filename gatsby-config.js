@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Rishabh's Portfolio`,
-    description: `Rishabh's Portfolio`,
+    title: `Rishabh Anand`,
+    description: `Rishabh Anand is a software developer from Bangalore, India. Tech Stack: ReactJS, React-Native, NodeJS, Mongodb, Redis, PostgreSQL, Express, Knex, Sequelize, Koa, Firebase. Provide Web / Mobile App Development Solutions. From BITS Pilani, Goa Campus.`,
     author: `Rishabh Anand`,
   },
   plugins: [

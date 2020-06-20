@@ -58,6 +58,13 @@ typings/
 .cache/
 public
 
+#firebase
+.firebaserc
+firebase-*.json
+firebase.json
+.firebase/
+
+
 # Mac files
 .DS_Store
 

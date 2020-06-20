@@ -1,6 +1,10 @@
 .logo {
     position: relative;
     animation: fadeIn 8s;
+    width: 100vw;
+}
+.logo img {
+    width: 100vw;
 }
 .logo #left-arrow {
     position: absolute;

@@ -7,8 +7,8 @@ export default function ({width, children}) {
     return (
         <div className="logo">
             {children}
-            <img src={left} alt="left" id="left-arrow" width={width} />
-            <img src={right} alt="right" id="right-arrow" width={width} />
+            <img src={left} alt="left" id="left-arrow" />
+            <img src={right} alt="right" id="right-arrow" />
         </div>
     );
 }
