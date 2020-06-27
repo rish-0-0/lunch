@@ -1,0 +1,16 @@
+.footer .footer-text {
+  text-align: center;
+  font-family: 'HeadingYatra';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 20px;
+  color: #888;
+}
+
+@media only screen and (max-width: 1199px) {
+  .footer .footer-text {
+    font-size: 9px;
+    line-height: 9px;
+  }
+}

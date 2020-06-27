@@ -6,14 +6,17 @@ import Title from "../components/Title";
 import SEO from "../components/seo";
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
+import '../components/index.css';
 
 const IndexPage = () => {
   return (
     <Layout>
       <SEO title="Home" />
-      <Logo>
-        <Title title="Rishabh Anand" />
-      </Logo>
+      <section>
+        <Logo>
+          <Title title="Rishabh Anand" />
+        </Logo>
+      </section>
       <Contact />
       <Footer />
     </Layout>

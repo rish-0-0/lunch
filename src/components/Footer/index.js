@@ -1,9 +1,10 @@
 import React from 'react';
+import './style.css';
 
 export default function () {
   return (
-    <section className='footer'>
-      <small className="footer-text">&copy; Rishabh Anand 2020</small>
-    </section>
+    <div className='footer'>
+      <p className="footer-text">&copy; Rishabh Anand 2020</p>
+    </div>
   );
 }
