@@ -1,0 +1,21 @@
+.reverse-logo-container {
+  position: relative;
+}
+
+.reverse-logo-container img {
+  width: 100vw;
+}
+
+#downleft {
+  position: absolute;
+  top:0;
+  left:0;
+  z-index: -1;
+}
+
+#downright {
+  position: absolute;
+  top:0;
+  left: 0;
+  z-index: -1;
+}

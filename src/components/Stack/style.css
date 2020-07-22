@@ -1,0 +1,21 @@
+#react {
+  max-width: 10%;
+}
+
+#node {
+  max-width: 10%;
+}
+
+.stack-container {
+  text-align: center;
+}
+
+@media only screen and (max-width: 1199.98px) {
+  #react {
+    max-width: 7%;
+  }
+  
+  #node {
+    max-width: 7%;
+  }
+}

@@ -7,6 +7,8 @@ import SEO from "../components/seo";
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 import '../components/index.css';
+import Experience from "../components/Experience";
+import Stack from '../components/Stack';
 
 const IndexPage = () => {
   return (
@@ -15,8 +17,10 @@ const IndexPage = () => {
       <section>
         <Logo>
           <Title title="Rishabh Anand" />
+          <Stack />
         </Logo>
       </section>
+      <Experience />
       <Contact />
       <Footer />
     </Layout>
